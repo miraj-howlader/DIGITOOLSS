@@ -6,6 +6,8 @@ import Products from './components/Products'
 import toast, { Toaster } from 'react-hot-toast'
 import Steps from './components/Steps'
 import Pricing from './components/Pricing'
+import Bann from './components/Bann'
+
 
 
 
@@ -49,6 +51,7 @@ const App = () => {
       )}
       <Steps/>
       <Pricing/>
+      <Bann/>
     <Toaster/>
     </div>
   )
