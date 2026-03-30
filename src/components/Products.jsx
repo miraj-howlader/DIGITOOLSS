@@ -26,7 +26,7 @@ const Products = ({ products,handleAddToCart,cart,setCart }) => {
             onClick={() => setToggleProduct("Products")}
             className={`px-6 py-2 rounded-lg border border-blue-500 transition ${
               toggleProduct === "Products"
-                ? "bg-gradient-to-r from-[#4F39F6] to-purple-700 text-white"
+                ? "bg-linear-to-r from-[#4F39F6] to-purple-700 text-white"
                 : "text-black"
             }`}
           >
@@ -37,7 +37,7 @@ const Products = ({ products,handleAddToCart,cart,setCart }) => {
             onClick={() => setToggleProduct("Cart")}
             className={`px-6 py-2 rounded-lg border border-blue-500 transition ${
               toggleProduct === "Cart"
-                ? "bg-gradient-to-r from-[#4F39F6] to-purple-700 text-white"
+                ? "bg-linear-to-r from-[#4F39F6] to-purple-700 text-white"
                 : "text-black"
             }`}
           >

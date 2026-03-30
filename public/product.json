@@ -73,7 +73,7 @@
   },
   {
     "id": 7,
-    "image": "/images/skills.png",
+    "image": "/images/portfolio.png",
     "name": "Skill Assessment Tests",
     "description": "Test and validate your professional skills online.",
     "price": 19.99,
@@ -85,7 +85,7 @@
   },
   {
     "id": 8,
-    "image": "/images/freelancer.png",
+    "image": "/images/portfolio.png",
     "name": "Freelancer Toolkit",
     "description": "All-in-one toolkit for freelancers to manage projects and clients.",
     "price": 39.99,
