@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Banner from './components/Banner'
 import Products from './components/Products'
+import toast, { Toaster } from 'react-hot-toast'
 
 
 
@@ -28,6 +29,7 @@ const App = () => {
   }, []);
 
   const handleAddToCart =(product)=>{
+    toast.success('added to cart')
    setCart([...cart,product])
   }
     
@@ -44,6 +46,7 @@ const App = () => {
         <Products products={products} handleAddToCart={handleAddToCart} cart={cart} setCart={setCart}/>
       )}
 
+    <Toaster/>
     </div>
   )
 }
