@@ -5,6 +5,7 @@ import Banner from './components/Banner'
 import Products from './components/Products'
 import toast, { Toaster } from 'react-hot-toast'
 import Steps from './components/Steps'
+import Pricing from './components/Pricing'
 
 
 
@@ -47,6 +48,7 @@ const App = () => {
         <Products products={products} handleAddToCart={handleAddToCart} cart={cart} setCart={setCart}/>
       )}
       <Steps/>
+      <Pricing/>
     <Toaster/>
     </div>
   )
