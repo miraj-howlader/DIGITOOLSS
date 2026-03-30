@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import ProductCards from "./ProductCards ";
+import ProductCart from "./ProductCart";
 
 
 
-const Products = ({ products,handleAddToCart }) => {
+const Products = ({ products,handleAddToCart,cart,setCart }) => {
   const [toggleProduct, setToggleProduct] = useState("Products");
-  console.log(products)
+  
 
   return (
     <div className="w-full py-16">
@@ -19,7 +20,7 @@ const Products = ({ products,handleAddToCart }) => {
           to boost your productivity and creativity.
         </p>
 
-        {/* Toggle Buttons */}
+        
         <div className="flex flex-col sm:flex-row gap-4">
           <button
             onClick={() => setToggleProduct("Products")}
@@ -56,7 +57,10 @@ const Products = ({ products,handleAddToCart }) => {
         {/* Cart placeholder */}
         {toggleProduct === "Cart" && (
           <div className="mt-8 w-full text-gray-500">
-            Cart functionality coming soon 🛒
+            {cart.length>0?
+            <ProductCart cart={cart} setCart={setCart}/>
+            :<h1 className="text-4xl font-bold">No Cart Added yet 🛒</h1>}
+            
           </div>
         )}
       </div>

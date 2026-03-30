@@ -41,7 +41,7 @@ const App = () => {
      {loading ? (
         <p className="text-center mt-10">Loading product data...</p>
       ) : (
-        <Products products={products} handleAddToCart={handleAddToCart}/>
+        <Products products={products} handleAddToCart={handleAddToCart} cart={cart} setCart={setCart}/>
       )}
 
     </div>
