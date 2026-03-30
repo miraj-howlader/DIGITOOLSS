@@ -59,7 +59,7 @@ const ProductCards  = ({product,handleAddToCart}) => {
         </ul>
 
         {/* Buy Now Button */}
-        <button onClick={()=>handleAddToCart(product)} className="mt-5 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition">
+        <button onClick={()=>handleAddToCart(product)} className="mt-5 w-full bg-linear-to-r from-[#4F39F6] to-purple-700 text-white py-2 rounded-lg  transition">
           Buy Now
         </button>
       </div>

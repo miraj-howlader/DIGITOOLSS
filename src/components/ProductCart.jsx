@@ -1,5 +1,6 @@
 import React from "react";
 import toast from "react-hot-toast";
+import { Trash2 } from "lucide-react";
 
 const ProductCart = ({ cart, setCart }) => {
   
@@ -42,15 +43,15 @@ const ProductCart = ({ cart, setCart }) => {
             />
 
            <h4 className="text-sm font-bold">{item.name}</h4>
-              <p className="text-sm">${item.price}</p>
+              <p className="text-sm font-bold">${item.price}</p>
            
 
             
             <button
               onClick={() => handleRemove(item.id)}
-              className="text-red-500"
+              className="text-red-500 cursor-pointer"
             >
-              ✖
+              <Trash2/>
             </button>
           </div>
         ))
@@ -58,14 +59,14 @@ const ProductCart = ({ cart, setCart }) => {
 
      
       {cart.length > 0 && (
-        <div className="border-t pt-4 mt-4">
-          <h3 className="font-semibold mb-2">
+        <div className="border-t  pt-4 mt-4 ">
+          <h3 className="font-semibold mb-2 justify-end flex w-full">
             Total: ${totalPrice}
           </h3>
 
           <button
             onClick={handleCheckout}
-            className="w-full bg-black text-white py-2 rounded"
+            className="w-full bg-linear-to-r from-[#4F39F6] to-purple-700 text-white py-2 rounded"
           >
             Proceed to Checkout
           </button>
