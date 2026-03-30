@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "image": "/images/design-tool.png",
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes with modern templates and ATS optimization.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "FileText"
+  },
+  {
+    "id": 2,
+    "image": "/images/portfolio.png",
+    "name": "Portfolio Website Kit",
+    "description": "Build a stunning personal portfolio website with ease.",
+    "price": 29.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Responsive design", "Custom domains", "SEO optimized"],
+    "icon": "Globe"
+  },
+  {
+    "id": 3,
+    "image": "/images/operation.png",
+    "name": "Job Tracker",
+    "description": "Track your job applications and manage interviews efficiently.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Application tracking", "Interview reminders", "Notes section"],
+    "icon": "Briefcase"
+  },
+  {
+    "id": 4,
+    "image": "/images/shopping-cart.png",
+    "name": "LinkedIn Optimizer",
+    "description": "Enhance your LinkedIn profile to attract recruiters.",
+    "price": 14.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Profile review", "Keyword optimization", "Headline generator"],
+    "icon": "Linkedin"
+  },
+  {
+    "id": 5,
+    "image": "/images/social-media.png",
+    "name": "Interview Prep AI",
+    "description": "Practice interviews with AI and improve your confidence.",
+    "price": 12.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Mock interviews", "AI feedback", "Common questions"],
+    "icon": "Mic"
+  },
+  {
+    "id": 6,
+    "image": "/images/write.png",
+    "name": "Cover Letter Generator",
+    "description": "Generate personalized cover letters in seconds.",
+    "price": 6.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Custom templates", "Job-specific letters", "Download options"],
+    "icon": "Mail"
+  },
+  {
+    "id": 7,
+    "image": "/images/skills.png",
+    "name": "Skill Assessment Tests",
+    "description": "Test and validate your professional skills online.",
+    "price": 19.99,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Multiple skill tests", "Instant results", "Certification"],
+    "icon": "CheckCircle"
+  },
+  {
+    "id": 8,
+    "image": "/images/freelancer.png",
+    "name": "Freelancer Toolkit",
+    "description": "All-in-one toolkit for freelancers to manage projects and clients.",
+    "price": 39.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Invoice generator", "Client management", "Project tracking"],
+    "icon": "Tool"
+  }
+]
