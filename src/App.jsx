@@ -7,6 +7,7 @@ import toast, { Toaster } from 'react-hot-toast'
 import Steps from './components/Steps'
 import Pricing from './components/Pricing'
 import Bann from './components/Bann'
+import Footer from './components/Footer'
 
 
 
@@ -52,6 +53,7 @@ const App = () => {
       <Steps/>
       <Pricing/>
       <Bann/>
+      <Footer/>
     <Toaster/>
     </div>
   )
